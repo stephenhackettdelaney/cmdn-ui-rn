@@ -7,7 +7,7 @@ import { Button } from './Button';
 import { HStack, VStack } from './Stack';
 import { Text } from './Text';
 
-export default function PageHeader({
+export function PageHeader({
   icon,
   title,
   size = 'md',
@@ -39,7 +39,7 @@ export default function PageHeader({
           {title}
         </Text>
       </HStack>
-      {!!action ? <Action {...action} {...props} /> : null}
+      {action ? <Action {...action} {...props} /> : null}
     </HStack>
   );
 }
