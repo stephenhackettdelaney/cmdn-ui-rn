@@ -1,31 +1,28 @@
 import * as React from 'react';
 
-import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'cdmn-ui-rn';
+import { SafeAreaView } from 'react-native';
+import { VStack, Text, HStack } from 'cdmn-ui-rn';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
-  React.useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
-
   return (
-    <View style={styles.container}>
-      <Text>Result: {result}</Text>
-    </View>
+    <SafeAreaView
+      style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '100%',
+        borderColor: 'green',
+        borderWidth: 8,
+      }}
+    >
+      <VStack className="border-4 border-red-400">
+        <Text className="text-red-400">vertical text</Text>
+        <Text>test 1</Text>
+      </VStack>
+      <HStack>
+        <Text className="text-red-400">horizontal text</Text>
+        <Text>test 2</Text>
+      </HStack>
+    </SafeAreaView>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  box: {
-    width: 60,
-    height: 60,
-    marginVertical: 20,
-  },
-});
