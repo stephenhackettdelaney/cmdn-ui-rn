@@ -22,6 +22,10 @@
   margin-top: 1.25rem
 }
 
+.ml-3 {
+  margin-left: 0.75rem
+}
+
 .block {
   display: block
 }
@@ -46,12 +50,36 @@
   height: 1rem
 }
 
+.h-2 {
+  height: 0.5rem
+}
+
+.h-2\.5 {
+  height: 0.625rem
+}
+
+.h-5 {
+  height: 1.25rem
+}
+
 .w-4 {
   width: 1rem
 }
 
 .w-full {
   width: 100%
+}
+
+.w-2 {
+  width: 0.5rem
+}
+
+.w-2\.5 {
+  width: 0.625rem
+}
+
+.w-5 {
+  width: 1.25rem
 }
 
 .flex-1 {
@@ -70,6 +98,14 @@
   align-items: center
 }
 
+.justify-center {
+  justify-content: center
+}
+
+.justify-between {
+  justify-content: space-between
+}
+
 .rounded-2xl {
   border-radius: 1rem
 }
@@ -82,12 +118,20 @@
   border-radius: 0.75rem
 }
 
+.rounded-lg {
+  border-radius: 0.5rem
+}
+
 .border-2 {
   border-width: 2px
 }
 
 .border-4 {
   border-width: 4px
+}
+
+.border {
+  border-width: 1px
 }
 
 .border-white {
@@ -115,6 +159,11 @@
   border-color: rgb(248 113 113 / var(--tw-border-opacity))
 }
 
+.border-red-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(239 68 68 / var(--tw-border-opacity))
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity))
@@ -135,6 +184,11 @@
   background-color: rgb(212 212 216 / var(--tw-bg-opacity))
 }
 
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity))
+}
+
 .p-2 {
   padding: 0.5rem
 }
@@ -143,13 +197,63 @@
   padding: 1rem
 }
 
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px
+}
+
+.py-0\.5 {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem
+}
+
+.text-center {
+  text-align: center
+}
+
+.text-right {
+  text-align: right
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem
+}
+
 .font-semibold {
   font-weight: 600
+}
+
+.font-bold {
+  font-weight: 700
+}
+
+.capitalize {
+  text-transform: capitalize
 }
 
 .italic {
@@ -164,6 +268,16 @@
 .text-zinc-800 {
   --tw-text-opacity: 1;
   color: rgb(39 39 42 / var(--tw-text-opacity))
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity))
 }
 
 .underline {
