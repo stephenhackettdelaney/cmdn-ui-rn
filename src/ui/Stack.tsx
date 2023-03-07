@@ -6,7 +6,6 @@ import cns from 'classnames';
 
 import { Space } from './Space';
 import { View } from './View';
-
 interface WithSpaceType extends ViewProps {
   as?: any;
   className?: string;
@@ -27,7 +26,6 @@ function withSpace(defaultClassName: string) {
     children,
     ...props
   }: T & WithSpaceType) {
-    console.log('className : ', className);
     if (gapX) {
       return (
         <Space

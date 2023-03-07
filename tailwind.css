@@ -2,32 +2,24 @@
   position: static
 }
 
-.fixed {
-  position: fixed
-}
-
-.absolute {
-  position: absolute
-}
-
-.relative {
-  position: relative
-}
-
-.ml-2 {
-  margin-left: 0.5rem
-}
-
-.mt-5 {
-  margin-top: 1.25rem
+.mb-2 {
+  margin-bottom: 0.5rem
 }
 
 .ml-3 {
   margin-left: 0.75rem
 }
 
-.block {
-  display: block
+.mt-2 {
+  margin-top: 0.5rem
+}
+
+.mt-3 {
+  margin-top: 0.75rem
+}
+
+.mt-5 {
+  margin-top: 1.25rem
 }
 
 .inline {
@@ -38,16 +30,8 @@
   display: flex
 }
 
-.contents {
-  display: contents
-}
-
 .hidden {
   display: none
-}
-
-.h-4 {
-  height: 1rem
 }
 
 .h-2 {
@@ -60,14 +44,6 @@
 
 .h-5 {
   height: 1.25rem
-}
-
-.w-4 {
-  width: 1rem
-}
-
-.w-full {
-  width: 100%
 }
 
 .w-2 {
@@ -106,52 +82,24 @@
   justify-content: space-between
 }
 
-.rounded-2xl {
-  border-radius: 1rem
-}
-
 .rounded-full {
   border-radius: 9999px
-}
-
-.rounded-xl {
-  border-radius: 0.75rem
 }
 
 .rounded-lg {
   border-radius: 0.5rem
 }
 
-.border-2 {
-  border-width: 2px
-}
-
-.border-4 {
-  border-width: 4px
+.rounded-xl {
+  border-radius: 0.75rem
 }
 
 .border {
   border-width: 1px
 }
 
-.border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity))
-}
-
-.border-zinc-200 {
-  --tw-border-opacity: 1;
-  border-color: rgb(228 228 231 / var(--tw-border-opacity))
-}
-
-.border-zinc-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(113 113 122 / var(--tw-border-opacity))
-}
-
-.border-zinc-700 {
-  --tw-border-opacity: 1;
-  border-color: rgb(63 63 70 / var(--tw-border-opacity))
+.border-2 {
+  border-width: 2px
 }
 
 .border-red-400 {
@@ -164,24 +112,9 @@
   border-color: rgb(239 68 68 / var(--tw-border-opacity))
 }
 
-.bg-white {
+.bg-red-400 {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity))
-}
-
-.bg-zinc-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(244 244 245 / var(--tw-bg-opacity))
-}
-
-.bg-zinc-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(228 228 231 / var(--tw-bg-opacity))
-}
-
-.bg-zinc-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(212 212 216 / var(--tw-bg-opacity))
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity))
 }
 
 .bg-red-500 {
@@ -193,8 +126,12 @@
   padding: 0.5rem
 }
 
-.p-4 {
-  padding: 1rem
+.p-3 {
+  padding: 0.75rem
+}
+
+.p-page {
+  padding: 16px
 }
 
 .py-0 {
@@ -219,19 +156,9 @@
   text-align: right
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem
 }
 
 .text-base {
@@ -244,12 +171,17 @@
   line-height: 1.25rem
 }
 
-.font-semibold {
-  font-weight: 600
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem
 }
 
 .font-bold {
   font-weight: 700
+}
+
+.font-semibold {
+  font-weight: 600
 }
 
 .capitalize {
@@ -260,19 +192,9 @@
   font-style: italic
 }
 
-.text-red-400 {
+.text-gray-800 {
   --tw-text-opacity: 1;
-  color: rgb(248 113 113 / var(--tw-text-opacity))
-}
-
-.text-zinc-800 {
-  --tw-text-opacity: 1;
-  color: rgb(39 39 42 / var(--tw-text-opacity))
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity))
+  color: rgb(31 41 55 / var(--tw-text-opacity))
 }
 
 .text-red-500 {
@@ -280,6 +202,11 @@
   color: rgb(239 68 68 / var(--tw-text-opacity))
 }
 
-.underline {
-  text-decoration-line: underline
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+.\[a-zA-Z0-9\:_-\] {
+  a-z-a--z0-9: -
 }

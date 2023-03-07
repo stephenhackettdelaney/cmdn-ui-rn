@@ -32,7 +32,6 @@ export default function withTw<T = ViewProps>(
       ...style,
     };
 
-    console.log('styles : ', styles);
     return <Component style={styles} ref={ref} {...props} />;
   });
   return WithTailwindComponent;

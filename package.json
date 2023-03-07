@@ -1,5 +1,5 @@
 {
-  "name": "cdmn-ui-rn",
+  "name": "cmdn-ui-rn",
   "version": "0.3.0",
   "description": "test",
   "main": "lib/commonjs/index",
@@ -42,13 +42,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/stephenhackettdelaney/cdmn-ui-rn",
+  "repository": "https://github.com/stephenhackettdelaney/cmdn-ui-rn",
   "author": "stephenhackettdelaney <stephenhackettdelaney@gmail.com> (https://github.com/stephenhackettdelaney)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stephenhackettdelaney/cdmn-ui-rn/issues"
+    "url": "https://github.com/stephenhackettdelaney/cmdn-ui-rn/issues"
   },
-  "homepage": "https://github.com/stephenhackettdelaney/cdmn-ui-rn#readme",
+  "homepage": "https://github.com/stephenhackettdelaney/cmdn-ui-rn#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
